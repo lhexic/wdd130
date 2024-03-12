@@ -7,10 +7,10 @@ body {
 }
 
 :root {
-    --primary-color:#a8dadc;
+    --primary-color:#043d3f;
     --secondary-color:#00b4d8;
     --accent1-color:#90e0ef;
-    --accent2-color:#d5bdaf;
+    --accent2-color:#070300;
 
     --heading-font: 'Abril Fatface', serif;
     --paragraph-font: 'arial', serif;
@@ -21,9 +21,9 @@ body {
 }
 
 body {
-    f______: var(--paragraph-font)
-    m______: ________;
-    p______: ________;
+    font-family; var(--paragraph-font)
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
