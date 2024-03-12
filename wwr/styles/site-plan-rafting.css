@@ -12,8 +12,8 @@ body {
     --accent1-color:#90e0ef;
     --accent2-color:#d5bdaf;
 
-    --heading-font: '_______', serif;
-    --paragraph-font: '______', serif:var(--accent1-color)
+    --heading-font: 'Abril Fatface', serif;
+    --paragraph-font: 'arial', serif;
     --nav-background-color:#540b0e;
     --nav-link-color:#0077b6;
     --nav-hover-link-color:#023047;
