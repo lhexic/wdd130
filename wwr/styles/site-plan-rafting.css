@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap')
+
+body {
+    font-family: var(--paragraph-font);
+    max-widthL: 960px;
+    padding: 20px
+}
+
+:root {
+    --primary-color:#a8dadc;
+    --secondary-color:#00b4d8;
+    --accent1-color:#90e0ef;
+    --accent2-color:#d5bdaf;
+
+    --heading-font: '_______', serif;
+    --paragraph-font: '______', serif:var(--accent1-color)
+    --nav-background-color:#540b0e;
+    --nav-link-color:#0077b6;
+    --nav-hover-link-color:#023047;
+    -nav-hover-background-color:#2b2d42;
+}
+
+body {
+    f______: var(--paragraph-font)
+    m______: ________;
+    p______: ________;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-hover-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-background-color);
+}
