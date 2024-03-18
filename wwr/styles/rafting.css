@@ -1,9 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Glitch+Pop&display=swap')
 
+:root {
+    --primary-color: #336699; 
+    --secondary-color: #FFA500; 
+    --text-color: #333; 
+  }
+  
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Apply Google Font */
+    color: var(--primary-color); /* Apply primary color to headings */
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif; /* Apply Google Font */
+    color: var(--text-color); /* Apply text color to paragraphs */
+  }
+  
+  /* Remove underlines from social media links */
+  .social-media a {
+    text-decoration: none;
+  }
+  
+  /* Limit entire width of the page */
+  .container {
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
 .hero img {
+    width: 100%; 
     display: block;
-    width: 100%;
-    height: auto;
 }
 
 h1 {
