@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rubik+Glitch+Pop&display=swap')
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+  }
+  
+  article {
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    width: 70%; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+    padding: 20px;
+  }
+
+img {
+    float: right;
+    margin-left: 10px; /* Adjust as needed */
+  }
