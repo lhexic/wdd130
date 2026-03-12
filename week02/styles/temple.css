@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: .25rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 2em 0;
+    background-color: #dddddd;
+    padding: 1rem;
+}
+
+section h2 {
+    text-align: left;
+    border-bottom: solid #000;
+}
+
+footer {
+    background-color: #333333;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
