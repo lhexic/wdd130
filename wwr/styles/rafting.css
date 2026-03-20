@@ -6,6 +6,7 @@
 
 :root {
     --primary-color: #325a05;
+    --secondary-color: #f4a261;
     --accent1-color: #264653;
     --heading-font: "Time New Roman", "Georgia3", Serif;
     --body-font: Arial, Helvetica, sans-serif
@@ -46,8 +47,9 @@ article {
 }
 
 .hero article {
-    position: relative;
-    top: 5px;
+    position: absolute;
+    top: 100px;
+    background-color: #ffffff91;
 }
 
 .hero img {
