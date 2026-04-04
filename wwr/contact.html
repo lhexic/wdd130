@@ -8,7 +8,7 @@
     <meta name="description"
       content="Contact White Water Rafting Company for trip info, reservations, or website feedback. Find our address, phone, email, and map.">
     <meta name="author" content="Jonathan Kwadjo Azanu">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -40,36 +40,42 @@
                   referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
-            <form class="contact-form">
-                <label for="name">Name</label>
-                <input type="text" placeholder="Your name">
+            <form action="#" method="post">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your name" required>
 
                 <label for="email">Email</label>
-                <input type="text" placeholder="Your email">
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
                 <fieldset>
-                    <label for="message">Message Purpose</label>
-                    <div class="radio-group">
-                        <label><input type="radio" name="purpose"> General Inquiry</label>
-                        <label><input type="radio" name="purpose"> Reservation Question</label>
-                        <label><input type="radio" name="purpose"> Website Suggestion</label>
-                    </div>
+                    <legend>Message Purpose</legend>
+
+                    <input type="radio" id="purpose-general" name="purpose" value="general"
+                      required>
+                    <label for="purpose-general">General Inquiry</label>
+
+                    <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                    <label for="purpose-reservation">Reservation Question</label>
+
+                    <input type="radio" id="purpose-website" name="purpose" value="website">
+                    <label for="purpose-website">Website Suggestion</label>
                 </fieldset>
-                <label>Message</label>
-                <textarea placeholder="Type here"></textarea>
 
-                <label class="checkbox">
-                    <input type="checkbox"> Subscribe to monthly newsletter
-                </label>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type here"
+                  required></textarea>
 
-                <button type="submit">Get In Touch!</button>
+                <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
 
+                <button type="submit">Get in Touch!</button>
             </form>
         </section>
         <section class="employees">
             <h2>We Are Here to Serve You</h2>
             <div class="profile-grid">
                 <figure>
-                    <img src="images/pr. mahama.jpeg" alt="President of Ghana, Manager" width="150">
+                    <img src="images/mahama.jpeg" alt="President of Ghana, Manager" width="150">
                     <figcaption>President of Ghana, Manager</figcaption>
                 </figure>
                 <figure>
