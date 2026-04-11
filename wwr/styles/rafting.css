@@ -45,8 +45,9 @@ nav a {
     padding: 8px 16px;
     background: white;
     border-radius: 5px;
-    color: black;
+    color: white;
     font-weight: bold;
+    margin: 0 15px;
 }
 
 main {
@@ -212,4 +213,78 @@ footer {
 table {
     width: 50em;
     margin: 10em auto;
+}
+
+/* Requirement 8: Shared header/footer styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Requirement 3: Hero positioning */
+.hero {
+    position: absolute;
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-title {
+    position: absolute;
+    /* Requirement 3 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* Requirement 6 & 7: CSS Grid (Multiple columns) */
+.grid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns */
+    gap: 20px;
+    padding: 40px;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Newsletter and CTA */
+.newsletter,
+.cta {
+    text-align: center;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+.cta-link {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
