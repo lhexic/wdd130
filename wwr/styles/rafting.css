@@ -183,3 +183,33 @@ td {
     /* background-color: rgb(0 0 0);
     color: white; */
 }
+
+.cta-contact {
+    margin: 2em;
+    font-size: 1.5em;
+}
+
+.cta-contact a {
+    color: #fff;
+    background-color: #be0e0e;
+    padding: 1em;
+    border-radius: 20px
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+header,
+main,
+footer {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+table {
+    width: 50em;
+    margin: 10em auto;
+}
