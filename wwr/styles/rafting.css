@@ -178,10 +178,10 @@ footer {
     padding: 20px;
 }
 
-.hero-img {
+.hero img {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
 }
 
 .hero-title {
@@ -215,6 +215,16 @@ footer {
     text-align: center;
     padding: 40px;
     background: #f4f4f4;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input {
+    width: 20em;
+    align-self: center;
 }
 
 .cta-link {
