@@ -13,8 +13,9 @@ nav a {
     padding: 8px 16px;
     background: white;
     border-radius: 5px;
-    color: black;
+    color: rgb(26, 53, 12);
     font-weight: bold;
+    margin: 0 15px;
 }
 
 main {
@@ -131,6 +132,8 @@ table {
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
+    width: 50em;
+    margin: 10em auto;
 }
 
 th,
@@ -167,28 +170,12 @@ footer {
     margin: 0 auto;
 }
 
-table {
-    width: 50em;
-    margin: 10em auto;
-}
-
-/* Requirement 8: Shared header/footer styles */
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    color: rgb(26, 53, 12);
-    margin: 0 15px;
-    text-decoration: none;
-}
-
 /* Requirement 3: Hero positioning */
 .hero {
     position: relative;
     width: 100%;
+    text-align: center;
+    padding: 20px;
 }
 
 .hero-img {
@@ -248,6 +235,8 @@ nav a {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -280,12 +269,6 @@ nav {
 
 .socialmedia a {
     text-decoration: none;
-}
-
-.hero {
-    position: relative;
-    text-align: center;
-    padding: 20px;
 }
 
 .hero article {
